@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Available Cars</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+    .car-gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .car-card {
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .car-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .car-card h3 {
+      text-align: center;
+    }
+    .hidden {
+  display: none;
+}
+
+
+  </style>
+</head>
+<body>
+  <h1>Available Cars</h1>
+
+  <div class="car-gallery">
+    <div class="car-card">
+      <img src="images/car1.jpg" alt="Car 1">
+      <h3>SUV Model A</h3>
+    </div>
+
+    <!-- <div class="car-gallery"> -->
+     <div class="car-card">
+      <img src="images/car4.jpg" alt="Car 4">
+      <h3>Maruti</h3>
+    </div>
+
+    <!-- <div class="car-gallery"> -->
+    <div class="car-card">
+      <img src="images/car2.jpg" alt="Car 3">
+      <h3>Hatchback Model C</h3>
+    </div>
+
+   <!-- <div class="car-gallery">  -->
+    <div class="car-card">
+      <img src="images/car3.jpg" alt="Car 2">
+     <h3>Toyoto</h3>
+
+    </div>
+      
+    <!-- <div class="car-gallery"> -->
+      <div class="car-card">
+        <img src="images/car5.jpg" alt="Car 5">
+        <h3>Mahindra Thar</h3>
+      </div>
+
+      <!-- <div class="car-gallery"> -->
+      <div class="car-card">
+        <img src="images/car6.jpg" alt="Car 6">
+        <h3>Luxury Sedan</h3>
+    </div>
+
+
+    <!-- <div class="car-gallery"> -->
+      <div class="car-card">
+        <img src="images/car7.jpg" alt="Car 7">
+        <h3>Hundai</h3>
+      </div>
+<!-- 
+    <div class="car-gallery"> -->
+      <div class="car-card">
+        <img src="images/car8.jpg" alt="Car 8">
+        <h3>Ford</h3>
+      </div>
+
+   
+      <div class="car-card">
+        <img src="images/car9.jpg" alt="Car 9">
+        <h3>Safari</h3>
+      </div>
+
+       <!-- <div class="car-gallery"> -->
+      <div class="car-card">
+        <img src="images/car10.jpg" alt="Car 10">
+        <h3>Honda City</h3>
+      </div>
+ 
+      <!-- <div class="car-gallery">  -->
+        <div class="car-card">
+          <img src="images/car11.jpg" alt="Car 11">
+          <h3>Harrier</h3>
+        </div>
+
+      <!-- <div class="car-gallery"> -->
+        <div class="car-card">
+          <img src="images/car12.jpg" alt="Car 12">
+          <h3>Swift Dezire</h3>
+        </div>
+    </div>
+
+  </form>
+</div>
+  
+</div>
+              <!-- Add below inside <body>, after car-container div -->
+ <div id="booking-form" class="form-popup hidden">
+  <h2>Book Your Car</h2>
+  <form id="form">
+    <input type="text" id="customerName" placeholder="Your Name" required />
+    <input type="tel" id="mobile" placeholder="Mobile Number" required />
+    <input type="text" id="carSelected" readonly />
+    <button type="submit">Book</button>
+  </form>
+         
+
+</body> 
+</html>
